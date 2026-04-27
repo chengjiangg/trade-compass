@@ -1201,6 +1201,7 @@
         font-size: 12px;
         color: var(--dos-gray-500);
         margin-top: 4px;
+        line-height: 1.4;
       }
       .gauge-bar {
         margin-top: 10px;
@@ -2829,18 +2830,18 @@
                           : 87,
             metrics: {
               bilateral_trade: isElectronics
-                ? "S$31.5B"
+                ? "S$33.8B"
                 : isFood
-                  ? "S$4.8B"
+                  ? "S$5.2B"
                   : isServices
-                    ? "S$8.2B"
+                    ? "S$8.6B"
                     : isTrade
-                      ? "S$55.8B"
+                      ? "S$105.2B"
                       : isPharma
-                        ? "S$2.1B"
+                        ? "S$2.3B"
                         : isChemicals
-                          ? "S$12.4B"
-                          : "S$52.3B",
+                          ? "S$13.6B"
+                          : "S$105.2B",
               bilateral_label: isServices
                 ? "SG–MY Services Trade"
                 : "SG–MY Bilateral Trade",
@@ -2851,10 +2852,10 @@
                   : isServices
                     ? "+9.4%"
                     : isTrade
-                      ? "+4.8%"
+                      ? "+5.3%"
                       : isPharma
                         ? "+5.7%"
-                        : "+5.2%",
+                        : "+5.3%",
               sg_export_share: isElectronics
                 ? "14.2%"
                 : isFood
@@ -2867,8 +2868,8 @@
                         ? "4.2%"
                         : "11.0%",
               sg_export_share_label: "Share of SG Exports to MY",
-              market_size: "US$415B GDP",
-              market_size_sub: "34M population",
+              market_size: "US$421B GDP",
+              market_size_sub: "34.1M population",
             },
             ftas: [
               {
@@ -2884,7 +2885,7 @@
               {
                 name: "CPTPP",
                 status: "active",
-                detail: "94% tariff lines eliminated",
+                detail: "84.7% of tariff lines at entry; 99.9% within 11 years",
               },
               {
                 name: "ASEAN–Australia–NZ",
@@ -3006,18 +3007,18 @@
                           : 84,
             metrics: {
               bilateral_trade: isElectronics
-                ? "S$48.2B"
+                ? "S$50.6B"
                 : isFood
-                  ? "S$3.6B"
+                  ? "S$3.8B"
                   : isServices
-                    ? "S$12.8B"
+                    ? "S$64.9B"
                     : isTrade
-                      ? "S$62.1B"
+                      ? "S$135.2B"
                       : isPharma
-                        ? "S$3.2B"
+                        ? "S$3.4B"
                         : isChemicals
-                          ? "S$18.7B"
-                          : "S$70.7B",
+                          ? "S$19.8B"
+                          : "S$135.2B",
               bilateral_label: isServices
                 ? "SG–CN Services Trade"
                 : "SG–CN Bilateral Trade",
@@ -3044,14 +3045,14 @@
                         ? "7.1%"
                         : "15.0%",
               sg_export_share_label: "Share of SG Exports to CN",
-              market_size: "US$18.5T GDP",
-              market_size_sub: "1.4B population",
+              market_size: "US$18.7T GDP",
+              market_size_sub: "1.41B population",
             },
             ftas: [
               {
                 name: "CSFTA (Upgraded)",
                 status: "active",
-                detail: "95% tariff lines at 0% or reduced",
+                detail: "Tariffs eliminated on 95% of SG exports to China",
               },
               {
                 name: "RCEP",
@@ -3061,7 +3062,7 @@
               {
                 name: "ACFTA (ASEAN–China)",
                 status: "active",
-                detail: "Version 3.0 under implementation",
+                detail: "Signed Oct 2025; pending ratification",
               },
             ],
             signals: [
@@ -3102,7 +3103,7 @@
                     : isServices
                       ? "Financial services liberalisation continuing in Greater Bay Area"
                       : isTrade
-                        ? "ACFTA 3.0 implementation to further reduce trade barriers"
+                        ? "ACFTA 3.0 signed in 2025 to further reduce trade barriers"
                         : isPharma
                           ? "Pharma market expected to reach US$260B by 2028"
                           : "Key sectors: green tech, advanced manufacturing, digital services",
@@ -3128,12 +3129,12 @@
                 : isServices
                   ? "China's ongoing financial liberalisation and digital economy expansion create strong demand for Singapore's professional services, particularly in fintech, wealth management, legal, and consulting. The Chongqing Connectivity Initiative (CCI) and SG–CN bilateral DEA streamline market access for services firms. The Greater Bay Area (Guangdong–HK–Macau) is opening progressively to foreign services providers. Singapore's bilingual advantage and cultural familiarity reduce market entry barriers significantly compared to Western firms."
                   : isTrade
-                    ? "China is Singapore's largest single-country trading partner, with bilateral trade of S$70.7B. Singapore serves as a major entrepôt and commodity trading hub for goods flowing to and from China. The upgraded CSFTA provides near-complete tariff elimination, and ACFTA Version 3.0 further streamlines customs procedures. RCEP cumulative origin rules allow firms to aggregate value from multiple RCEP countries. Key product flows include petroleum products, electronic components, chemicals, and precision machinery."
+                    ? "China is Singapore's largest single-country trading partner, with total bilateral merchandise trade exceeding S$135B. Singapore serves as a major entrepôt and commodity trading hub for goods flowing to and from China. The upgraded CSFTA provides near-complete tariff elimination, and ACFTA 3.0 (signed Oct 2025) will further streamline customs procedures once ratified. RCEP cumulative origin rules allow firms to aggregate value from multiple RCEP countries. Key product flows include petroleum products, electronic components, chemicals, and precision machinery."
                     : isPharma
                       ? "China's pharmaceutical market is projected to reach US$260B by 2028, driven by an ageing population (300M+ above 60 by 2030) and healthcare reforms expanding universal coverage. The National Reimbursement Drug List is expanding rapidly, creating opportunities for quality generics and biosimilars. The Volume-Based Procurement (VBP) system favours manufacturers who can guarantee quality at competitive prices — an area where Singapore GMP-certified facilities have an advantage. The CSFTA provides tariff elimination on pharmaceutical products."
                       : isChemicals
                         ? "China's industrial upgrading programme drives demand for high-performance specialty chemicals across electronics, automotive, and advanced manufacturing. Singapore's petrochemical hub on Jurong Island is well-positioned to supply intermediates and specialty products. The CSFTA upgraded protocol provides 95% tariff elimination, and RCEP facilitates regional supply chain integration. Bilateral chemical trade has grown steadily, supported by well-established logistics corridors."
-                        : "China is Singapore's largest trading partner, with total bilateral trade reaching S$70.7B in 2024. The recently upgraded CSFTA provides among the most comprehensive market access of any bilateral FTA with China, covering 95% of tariff lines. RCEP and ACFTA provide additional layers of preferential access. Singapore firms benefit from a strong bilateral institutional framework, including government-to-government projects and business councils that support market entry.",
+                        : "China is Singapore's largest trading partner, with total bilateral merchandise trade exceeding S$135B. The recently upgraded CSFTA provides among the most comprehensive market access of any bilateral FTA with China, covering 95% of tariff lines. RCEP and ACFTA provide additional layers of preferential access. Singapore firms benefit from a strong bilateral institutional framework, including government-to-government projects and business councils that support market entry.",
             tags: [
               { text: "Largest Trading Partner", type: "green" },
               { text: "CSFTA Upgraded", type: "" },
@@ -3184,18 +3185,18 @@
                           : 80,
             metrics: {
               bilateral_trade: isElectronics
-                ? "S$22.7B"
+                ? "S$28.4B"
                 : isFood
-                  ? "S$1.2B"
+                  ? "S$1.6B"
                   : isServices
-                    ? "S$9.6B"
+                    ? "S$159.1B"
                     : isTrade
-                      ? "S$44.0B"
+                      ? "S$159.1B"
                       : isPharma
-                        ? "S$9.1B"
+                        ? "S$11.8B"
                         : isChemicals
-                          ? "S$6.8B"
-                          : "S$44.0B",
+                          ? "S$8.2B"
+                          : "S$159.1B",
               bilateral_label: isServices
                 ? "SG–US Services Trade"
                 : "SG–US Bilateral Trade",
@@ -3222,7 +3223,7 @@
                         ? "22.4%"
                         : "8.3%",
               sg_export_share_label: "Share of SG Exports to US",
-              market_size: "US$28.8T GDP",
+              market_size: "US$29.4T GDP",
               market_size_sub: "336M population",
             },
             ftas: [
@@ -3295,7 +3296,7 @@
                 : isServices
                   ? "The United States is the world's largest market for IT and professional services, and the USSFTA provides Singapore service firms with national treatment in key sectors including financial, telecommunications, and professional services. The agreement has been in force since 2004 and is among the most comprehensive of Singapore's bilateral FTAs. US demand for cybersecurity, AI/ML, fintech, and digital transformation consulting continues to grow, creating opportunities for Singapore firms with deep technical capabilities."
                   : isTrade
-                    ? "While the US is Singapore's largest import partner (S$108B), it also represents a significant export destination at S$44B. The USSFTA provides comprehensive preferential access across goods categories. Singapore serves as a trusted intermediary and re-export hub for goods flowing between Asia and the US. The bilateral trade relationship is supported by strong institutional frameworks, including business roundtables and regulatory cooperation mechanisms."
+                    ? "While the US is Singapore's largest import partner (S$108B), it also represents a significant export destination at S$51B. The USSFTA provides comprehensive preferential access across goods categories. Singapore serves as a trusted intermediary and re-export hub for goods flowing between Asia and the US. The bilateral trade relationship is supported by strong institutional frameworks, including business roundtables and regulatory cooperation mechanisms."
                     : isPharma
                       ? "The United States is the world's largest pharmaceutical market at over US$600B annually, and Singapore is a recognised manufacturing hub for biologics, APIs, and specialty drugs. Several major global pharma companies operate FDA-registered manufacturing facilities in Singapore. The USSFTA provides duty-free access for pharmaceutical products, and FDA–HSA mutual recognition of GMP inspections reduces regulatory duplication. The US biologics market is growing at approximately 12% per annum, creating strong demand for Singapore's advanced biomanufacturing capabilities."
                       : isChemicals
@@ -3914,9 +3915,9 @@
         return "low";
       }
       function potentialLabel(p) {
-        if (p >= 70) return "High export potential";
-        if (p >= 45) return "Moderate export potential";
-        return "Low export potential";
+        if (p >= 70) return "High";
+        if (p >= 45) return "Moderate";
+        return "Low";
       }
 
       function lookupUEN() {
@@ -3970,7 +3971,7 @@
               <div class="potential-gauge">
                 <div class="gauge-label">Export Potential</div>
                 <div class="gauge-value ${pc}">${firm.potential}%</div>
-                <div class="gauge-sub">${pl}</div>
+                <div class="gauge-sub">${firm.potential}% probability of exporting · <strong style="color:${pc === "high" ? "var(--dos-success)" : pc === "med" ? "var(--dos-warning)" : "var(--dos-gray-500)"}">${pl}</strong></div>
                 <div class="gauge-bar"><div class="fill ${pc}" style="width:${firm.potential}%;"></div></div>
               </div>
             </div>
