@@ -1973,7 +1973,7 @@
                   View Bilateral trade, YoY growth, and FTA coverage per
                   recommended destination
                 </li>
-                <li>Filter destinations by probability of success</li>
+                <li>Filter destinations by market fit score</li>
               </ul>
               <span class="tool-card-cta">
                 Open tool
@@ -2625,7 +2625,7 @@
               <div class="probability-filter-bar" id="probabilityFilterBar">
                 <div class="pfb-header">
                   <div class="pfb-header-left">
-                    <h4>Filter by Export Probability</h4>
+                    <h4>Filter by Market Fit Score</h4>
                     <span class="badge">Post-filter</span>
                   </div>
                   <div class="pfb-count">
@@ -3495,7 +3495,7 @@
         <div class="rc-right">
           <div class="rc-score-pill ${scoreClass}">
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1l1.5 3 3.5.5-2.5 2.4.6 3.5L6 8.9 3.4 10.4l.6-3.5L1.5 4.5 5 4z" fill="currentColor"/></svg>
-            ${m.score}% probability
+            ${m.score}% Market Fit Score
           </div>
           <span class="rc-expand-icon open">▾</span>
         </div>
@@ -3550,7 +3550,7 @@
         const note = document.createElement("div");
         note.className = "data-source-note";
         note.innerHTML =
-          "<strong>Data sources:</strong> Singapore Department of Statistics, Enterprise Singapore, Ministry of Trade and Industry. Trade values are based on 2024 data. Probability scores are generated using a collaborative filtering approach, identifying firms with similar profiles based on sector, size, and trade patterns where comparable firms have found success. This tool does not constitute trade advice.";
+          "<strong>Data sources:</strong> Singapore Department of Statistics, Enterprise Singapore, Ministry of Trade and Industry. Trade values are based on 2024 data. Market fit scores are generated using a collaborative filtering approach, identifying firms with similar profiles based on sector, size, and trade patterns where comparable firms have found success. This tool does not constitute trade advice.";
         list.appendChild(note);
 
         list.classList.add("active");
